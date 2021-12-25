@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(70, 142, 236);
+  font: normal 1rem arial;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+}
+
+section {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
+}
+
+#msg {
+  padding: 15px;
+}
+
+#img {
+  padding: 10px 0;
+}
+div {
+    font-size: 1.5rem;
+    
+}
+
+div#msg-dia {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 787px) {
+  section {
+    font-size: 1.rem;
+    width: 300px;
+  }
+
+  div {
+    font-size: 1.1rem;
+    
+}
+  div#msg-dia {
+    font-size: 2rem;
+    }
+
+    #img {
+      width: 80%;
+    }
+
+    footer {
+      font-size: 0.7rem;
+    }
+}
